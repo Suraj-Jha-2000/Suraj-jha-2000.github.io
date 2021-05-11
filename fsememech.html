@@ -1,0 +1,568 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>ENGINEERING MECHANICS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+   
+<style>
+
+.btn {
+            border-color: 2px solid gray;
+            border-radius: 10px;
+            padding: 8px;
+            margin: 8px;
+            width: 120px;
+            font-size: 20px;
+            /* font-family: 'Lobster', cursive; */
+            background-color: rgb(16, 16, 59);
+            background-color: rgba(248, 64, 39, 0.645);
+            background-color: rgba(16, 16, 59,.759);
+            /* background-color: rgb(133, 22, 8); */
+            color: white;
+           
+
+        }
+
+        .btn1 {
+            color: white;
+            position: absolute;
+            right: 10px;
+            top: 8px;
+            border-color: 2px solid gray;
+            border-radius: 10px;
+            padding: 8px;
+            margin: 8px;
+            font-size: 20px;
+            width: 120px;
+            background-color: rgba(248, 64, 39, 0.645);
+            background-color: rgba(16, 16, 59,.759);
+
+            /* font-family: 'Lobster', cursive; */
+            
+            /* background-color: rgb(133, 22, 8); */
+            
+
+        }
+        #cen{
+            border-color: 2px solid black;
+            width: 1000px;
+        }
+.sub{
+    font-family: 'Acme', sans-serif;
+            position: absolute;
+            top: 10px;
+            left: 550px;
+            border: 2px solid blueviolet;
+            border-width: 1px;
+            height: 95px;
+            width: 130px;
+            border: 2px solid wheat;
+            width: 450px;
+            /* background-color: rgb(133, 22, 8); */background-color: rgba(248, 64, 39, 0.75);
+            background-color: rgba(16, 16, 59,.759);
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            color: white;
+
+}
+.credit{
+    position: absolute;
+            top: 110px;
+            left: 560px;
+            
+            border: 2px solid blueviolet;
+            border-width: 1px;
+            height: 50px;
+            width: 30px;
+            border: 2px solid wheat;
+            width: 200px;
+             /* background-color: rgb(133, 22, 8); */
+             background-color: rgb(16, 16, 59);
+             background-color: rgba(248, 64, 39, 0.645);
+             background-color: rgba(16, 16, 59,.759);
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            color: white;
+
+}
+.ese{
+    position: absolute;
+            top: 110px;
+            left: 790px;
+            
+            border: 2px solid blueviolet;
+            border-width: 1px;
+            height: 50px;
+            width: 20px;
+            border: 2px solid wheat;
+            width: 200px;
+             background-color: rgb(16, 16, 59); 
+             /* background-color: rgb(133, 22, 8); */
+             background-color: rgba(248, 64, 39, 0.645);
+             background-color: rgba(16, 16, 59,.859);
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            color: white;
+
+}
+ body{
+    background: url('https://images.wallpaperscraft.com/image/books_library_shelves_138556_1920x1080.jpg') no-repeat center center/cover;
+     height: 1000px;
+ }
+
+.topics{
+
+    font-family: 'Acme', sans-serif;
+            position: absolute;
+            top: 260px;
+            left: 60px;
+            
+            width: 430px;
+            display: flex;
+            justify-content: center;
+}
+
+        .top {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 0px;
+            top: 70px;
+            border: 2px solid wheat;
+            padding: 15px;
+            width: 250px;
+            margin: 0px;
+            align-items: center;
+             background-color: rgb(16, 16, 59);
+             background-color: rgba(248, 64, 39, 0.85);
+             background-color: rgba(16, 16, 59,.859);
+             /* background-color: rgb(133, 22, 8);  */
+            border-radius: 40px;
+            /* z-index: 3; */
+            color: white;
+
+        }
+
+        .sec {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 0px;
+            top: 250px;
+            padding: 15px;
+            align-items: center;
+            border: 2px solid wheat;
+            width: 250px;
+             background-color: rgb(16, 16, 59);
+             background-color: rgba(248, 64, 39, 0.85);
+             background-color: rgba(16, 16, 59,.859);
+             /* background-color: rgb(133, 22, 8);  */
+            border-radius: 40px;
+            z-index: 2;
+            color: white;
+
+        }
+        .th {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 0px;
+            top: 459px;
+            border: 2px solid wheat;
+            width: 250px;
+            padding: 15px;
+            align-items: center;
+            background-color: rgb(16, 16, 59);
+            background-color: rgba(248, 64, 39, 0.85);
+            background-color: rgba(16, 16, 59,.859);
+            /* background-color: rgb(133, 22, 8); */
+            border-radius: 40px;
+            z-index: 1;
+            color: white;
+        }
+
+        .fr {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 415px;
+            top: 70px;
+            width: 350px;
+            border: 2px solid wheat;
+            padding: 15px;
+            margin: 0px;
+            align-items: center;
+            background-color: rgb(16, 16, 59);
+            background-color: rgba(248, 64, 39, 0.85);
+            background-color: rgba(16, 16, 59,.859);
+            /* background-color: rgb(133, 22, 8); */
+            border-radius: 40px;
+            color: white;
+        }
+
+        .fv {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 415px;
+            top: 270px;
+            width: 350px;
+            border: 2px solid wheat;
+            padding: 15px;
+            margin: 0px;
+            align-items: center;
+            background-color: rgb(16, 16, 59);
+            background-color: rgba(248, 64, 39, 0.85);
+            background-color: rgba(16, 16, 59,.859);
+            /* background-color: rgb(133, 22, 8); */
+            border-radius: 40px;
+            color: white;
+        }
+        .sx{
+
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 415px;
+            top: 429px;
+            width: 350px;
+            border: 2px solid wheat;
+            padding: 15px;
+            margin: 0px;
+            align-items: center;
+            background-color: rgb(16, 16, 59);
+            background-color: rgba(248, 64, 39, 0.85);
+            background-color: rgba(16, 16, 59,.859);
+            /* background-color: rgb(133, 22, 8); */
+            border-radius: 40px;
+            color: white;
+        }
+        .booknames{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 1090px;
+            top: 575px;
+            width: 350px;
+            height: 150PX;
+            border: 2px solid wheat;
+            padding: 15px;
+            margin: 0px;
+            align-items: center;
+            background-color: rgb(16, 16, 59);
+            /* background-color: rgb(133, 22, 8); */
+            border-radius: 40px;
+            background-color: rgba(248, 64, 39, 0.85);
+            color: white;
+
+        }
+        .bestbook{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 1090px;
+            top: 325px;
+            width: 350px;
+            height: 150PX;
+            border: 2px solid wheat;
+            padding: 15px;
+            margin: 0px;
+            align-items: center;
+            background-color: rgba(16, 16, 59,.789);
+            /* background-color: rgba(248, 64, 39, 0.85); */
+            /* background-color: rgb(133, 22, 8); */
+            border-radius: 40px;
+            color: white;
+        }
+      
+        li{
+            padding: 10px;   
+            color: white;   
+              }
+              a{
+            text-decoration: none;
+            color: white;
+            }
+            .buy{
+                color: white;
+                text-decoration: underline;
+                /* color: cadetblue; */
+            }
+            #bb{
+                padding: 0px;
+                margin: 0px;
+                text-decoration: underline;
+                /* color: cadetblue; */
+            }
+            #th{
+
+                display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 60px;
+            top: 220px;
+            border: 2px solid wheat;
+            padding: 15px;
+            width: 750px;
+            margin: 0px;
+            align-items: center;
+             background-color: rgb(16, 16, 59); 
+             background-color: rgba(248, 64, 39, 0.85);
+             background-color: rgba(16, 16, 59,.9);
+             /* background-color: rgb(133, 22, 8); */
+            border-radius: 40px;
+            z-index: 3;
+            color: white;
+            }
+           #rc{
+               
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 1010px;
+            top: 220px;
+            border: 2px solid wheat;
+            padding: 15px;
+            width: 450px;
+            margin: 0px;
+            align-items: center;
+             background-color: rgb(16, 16, 59);
+             background-color: rgba(248, 64, 39, 0.85);
+             background-color: rgba(16, 16, 59,.9);
+             /* background-color: rgb(133, 22, 8);  */
+            border-radius: 40px;
+            z-index: 3;
+            color: white;
+           }
+            #line{
+                width: 1500px;
+                position: absolute;
+                top: 170px;
+                height: 10px;
+                border-color: black;
+                background-color: rgb(17, 17, 16);
+                background-color: rgba(248, 64, 39, 0.85);
+                background-color: rgba(16, 16, 59,.9);
+                /* background-color: rgb(133, 22, 8);  */
+                border-radius: 40px;
+            }
+            .mks{
+                display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 130px;
+            top: 175px;
+            width: 90px;
+            height: 10px;
+            border: 2px solid wheat;
+            padding: 15px;
+            margin: 0px;
+            justify-content: center;
+            background-color: rgb(16, 16, 59);
+            background-color: rgba(248, 64, 39, 0.85);
+            background-color: rgba(16, 16, 59,.789);
+            
+            border-radius: 40px;
+            color: white;
+
+            }
+            #mks2{
+                display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 130px;
+            top: 103px;
+            width: 90px;
+            height: 10px;
+            border: 2px solid wheat;
+            padding: 15px;
+            margin: 0px;
+            justify-content: center;
+            background-color: rgb(16, 16, 59);
+            background-color: rgba(248, 64, 39, 0.85);
+            background-color: rgba(16, 16, 59,.789);
+            border-radius: 40px;
+            color: white;
+            }
+            #mks3{
+                display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 130px;
+            top: 104px;
+            width: 90px;
+            height: 10px;
+            border: 2px solid wheat;
+            padding: 15px;
+            margin: 0px;
+            justify-content: center;
+            background-color: rgb(16, 16, 59);
+            background-color: rgba(248, 64, 39, 0.85);
+            background-color: rgba(16, 16, 59,.789);
+            border-radius: 40px;
+            color: white;
+            } #mks4{
+                display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 240px;
+            top: 102px;
+            width: 90px;
+            height: 10px;
+            border: 2px solid wheat;
+            padding: 15px;
+            margin: 0px;
+            justify-content: center;
+            background-color: rgb(16, 16, 59);
+            background-color: rgba(248, 64, 39, 0.8);
+            background-color: rgba(16, 16, 59,.859);
+            border-radius: 40px;
+            color: white;
+            } #mks5{
+                display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 240px;
+            top: 102px;
+            width: 90px;
+            height: 10px;
+            border: 2px solid wheat;
+            padding: 15px;
+            margin: 0px;
+            justify-content: center;
+            background-color: rgb(16, 16, 59);
+            background-color: rgba(248, 64, 39, 0.8);
+            background-color: rgba(16, 16, 59,.859);
+            border-radius: 40px;
+            color: white;
+            }
+            #mks6{
+                display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 240px;
+            top: 102px;
+            width: 90px;
+            height: 10px;
+            border: 2px solid wheat;
+            padding: 15px;
+            margin: 0px;
+            justify-content: center;
+            background-color: rgb(16, 16, 59);
+            background-color: rgba(248, 64, 39, 0.8);
+            background-color: rgba(16, 16, 59,.859);
+            border-radius: 40px;
+            color: white;
+            }
+
+
+
+</style>
+
+
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+
+            <a href="index.html"><button class="btn"> Home</button></a>
+
+        </div>
+        <div class="right">
+
+            <a href="fsem.html"><button class="btn1">
+                    Back
+                </button></a>
+
+        </div>
+        
+        
+ 
+        <div class="sub"> <h1>ENGINEERING MECHANICS</h1>
+        </div>
+        <div class="credit"><h3>CREDIT   4</h3></div>
+        <div class="ese"><h3>ESE MARKS  70</h3></div>
+<hr id="line">
+       <div class="cen" id="cen">
+           <h2 id="th">TOPIC'S HIGHLIGHTS</h2>
+       <h2 id="rc">REFERENCE BOOKS</h2></div>
+
+           <div class="topics">
+               <div class="syl">
+
+                   <div class="top">
+                       <h2 id="al"> FORCE SYSTEMS </h2>
+                         
+                   </div>
+                   <div class="mks">
+                   <h3 class> MARKS 15</h3></div>
+                   <div class="sec">
+                       <h2 id="tp"> EQUILIBRIUM</h2>
+                       <div  >
+                           <h3 class id="mks2"> MARKS 15</h3></div>
+                   </div>
+                   <div class="th">
+                       <h2 id="sm"> FRICTION </h2>
+                       <div  >
+                           <h3 class id="mks3"> MARKS 13</h3></div>
+                   </div>
+                   </div>
+                   <div class="fr">
+                       <h2 id="spm"> CENTROID AND CENTRE GRAVITY </h2>
+                       <div  >
+                           <h3 class id="mks4"> MARKS 12</h3></div>
+                   
+                   </div>
+                   <div class="fv">
+                       <h2 id="smp"> SIMPLE MACHINE</h2>
+                       <div  >
+                           <h3 class id="mks5"> MARKS 15</h3></div>
+                   </div>
+                   </div>
+                   </div>
+               </div>
+
+           </div>
+           <div class="bestbook">
+              <h4 id="bb"> BEST BOOKS TO REFER</h4>
+               <ul>
+                   <li>
+                       ENGINEERING MECHANICS BY R. S. KHURMI
+                   </li>
+                      </ul>
+           </div>
+           <div class="booknames">
+               <div class="buy"> CLICK BELOW TO BUY  </div>
+               <ul>
+                   <li class="book1"><a href="https://www.textbooks.solutions/engineering-mechanics-r-s-khurmi-1st-edition/" target="_blank" > ENGINEERING MECHANICS BY R.S.KHURMI </a></li>
+               </ul>
+
+           </div>
+
+   </div>
+   
+</body>
+</html>
+
+
+       
+ 
+        
+
+
+
+
+
+
